@@ -1,7 +1,7 @@
 <?php
 
 
-//indexed array
+//indexed arrays
 
 $people = array('salman', "ansari" , "khan");
 $id = array(25,26,28);
