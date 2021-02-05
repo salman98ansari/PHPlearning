@@ -29,7 +29,7 @@ echo $people['mobin'];
 
 $bike=[
 	[
-		'activa', 'pulsar', 'hayabusa'
+		'activa', 'pulsarsss', 'hayabusa'
 	],
 		[
 		'activas', 'pulsars', 'hayabusas'
@@ -38,6 +38,8 @@ $bike=[
 
 echo $bike[0][2];
 echo $bike[1][1];
+
+echo $bike[0][1];
 
 
 
