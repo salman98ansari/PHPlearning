@@ -10,12 +10,29 @@ $server =[
 	'path' => $_SERVER['SCRIPT_FILENAME']
 
 ];
+/*
 echo $server['Host Server Name'];
 echo $server['Server Soft'];
 echo "<br>";
 
 print_r($server);
 
+echo "<br>";
+*/
+
+
+
 //client server
 
+$client=[
+	'Client System info' => $_SERVER['HTTP_USER_AGENT'],
+	'IP' => $_SERVER['REMOTE_ADDR'],
+	'Port' => $_SERVER['REMOTE_PORT'],
+
+
+
+];
+
+
+//print_r($client);
 ?>
